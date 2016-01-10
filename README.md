@@ -5,7 +5,7 @@ An API and demonstration program for consuming all the memory of applications th
 
 ## How do I use this?
 
-Use the com.contrastsecurity.jinfinity.JInfinity.java#sendAttack() API to push an unreasonable large serialized String to a target OutputStream. You'll need to figure out how to get the OutputStream of your target set up correctly.
+Use the com.contrastsecurity.jinfinity.JInfinity.java#sendAttack() API to push an unreasonably large serialized String to a target OutputStream. You'll need to figure out how to get the OutputStream of your target set up correctly.
 
 ## How can I run the demo program?
 
