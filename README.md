@@ -1,11 +1,11 @@
 jinfinity
 ========
 
-An API and demonstration program for consuming all the memory of applications that deserialize data from untrusted sources (like HTTP requests.)
+An API and demonstration program for consuming all the memory of applications that deserialize data from untrusted sources (like HTTP requests) using the Java serialization specification.
 
 ## How do I use this?
 
-Use the com.contrastsecurity.jinfinity.JInfinity.java#sendAttack() API to push an unreasonable large serialized String to a target OutputStream.
+Use the com.contrastsecurity.jinfinity.JInfinity.java#sendAttack() API to push an unreasonable large serialized String to a target OutputStream. You'll need to figure out how to get the OutputStream of your target set up correctly.
 
 ## How can I run the demo program?
 
